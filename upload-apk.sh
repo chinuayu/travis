@@ -3,7 +3,7 @@
 mkdir $HOME/buildApk/ 
 #copy generated apk from build folder to the folder just created
 
-cp -R app/build/outputs/apk/app-debug.apk $HOME/android/
+cp -R app/build/outputs/apk/debug/app-debug.apk $HOME/android/
 #go to home and setup git  
 
 cd $HOME
